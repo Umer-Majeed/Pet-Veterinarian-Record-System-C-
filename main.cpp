@@ -49,4 +49,24 @@ int main() {
         getline(cin, (ptr + i)->vet.contactNo);  // Accessing vet contact number
     }
 
+    // Step 4b: Display all pet records using loop and pointer notation
+    cout << "\n\n----- Displaying All Pet Records -----\n";
 
+    for (int i = 0; i < SIZE; i++) {
+        cout << "\nPet #" << (i + 1) << ":\n";
+
+        // Display pet name
+        cout << "Name: " << (ptr + i)->name << endl;
+
+        // Display species
+        cout << "Species: " << (ptr + i)->species << endl;
+
+        // Display veterinarian details
+        cout << "Assigned Veterinarian:\n";
+        cout << "  Name: " << (ptr + i)->vet.name << endl;
+        cout << "  Specialization: " << (ptr + i)->vet.specialization << endl;
+        cout << "  Contact No: " << (ptr + i)->vet.contactNo << endl;
+    }
+
+    return 0;  // End of program
+}
