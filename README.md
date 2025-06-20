@@ -71,7 +71,7 @@ PetVetSystem/
 ### 🛠️ Compile & Run
 
 ```bash
-git clone https://github.com/Umer-Majeed/PetVetSystem.git
+git clone https://github.com/Umer-Majeed/Pet-Veterinarian-Record-System-C-
 cd PetVetSystem
 g++ main.cpp -o PetVetSystem
 ./PetVetSystem
