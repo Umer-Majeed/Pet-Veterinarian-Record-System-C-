@@ -18,6 +18,8 @@ struct Pet {
 };
 
 int main() {
+    // The Main Where the program starts 
+
     const int SIZE = 3;      // We want to store data for 3 pets
 
     Pet pets[SIZE];          // Create an array of Pet structures
