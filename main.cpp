@@ -1,5 +1,6 @@
 #include <iostream>      // For input and output
 #include <string>        // To use string data type
+#include <conio>
 using namespace std;
 
 // Step 1: Define structure for Veterinarian
